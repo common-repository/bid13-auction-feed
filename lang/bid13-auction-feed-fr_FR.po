@@ -1,0 +1,84 @@
+# Copyright (C) 2020 Bid13 Storage Auctions
+# This file is distributed under the same license as the Bid13 Auction Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bid13 Auction Feed 1.13\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bid13-auction-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-09T01:26:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: bid13-auction-feed\n"
+
+#: bid13-auction-feed.php:279
+msgid "Filter by Region"
+msgstr "Filtrer par région "
+
+#: bid13-auction-feed.php:281
+#: bid13-auction-feed.php:290
+msgid "Show all"
+msgstr "Afficher tout"
+
+#: bid13-auction-feed.php:288
+msgid "Filter by City"
+msgstr "Filtrer par ville "
+
+#: bid13-auction-feed.php:316
+msgid "There are no units currently available for auction. Please check back in the future..."
+msgstr "Aucune unité n'est actuellement disponible pour la vente aux enchères. Veuillez vérifier de nouveau à l'avenir..."
+
+#: bid13-auction-feed.php:317
+msgid "If you would like to receive email updates about our future auctions please sign up for the "
+msgstr "Si vous désirez recevoir des alertes par courriel vous avisant des futures enchères, veuillez vous enregister au "
+
+#: bid13-auction-feed.php:318
+msgid "storage auction newsletter"
+msgstr "bulletin d’information"
+
+#: bid13-auction-feed.php:335
+msgid "week"
+msgstr "semaine"
+
+#: bid13-auction-feed.php:341
+msgid "day"
+msgstr "jour"
+
+#: bid13-auction-feed.php:347
+msgid "hour"
+msgstr "heure"
+
+#: bid13-auction-feed.php:353
+msgid "minute"
+msgstr "minute"
+
+#: bid13-auction-feed.php:335
+msgid "Unit"
+msgstr "Unité"
+
+#: bid13-auction-feed.php:373
+msgid "Unit Contents"
+msgstr "Contenu de l'unité "
+
+#: bid13-auction-feed.php:378
+msgid "Pickup Location"
+msgstr "Lieu de ramassage "
+
+#: bid13-auction-feed.php:382
+msgid "Current Bid"
+msgstr "Offre actuelle "
+
+#: bid13-auction-feed.php:382
+msgid "place bid"
+msgstr "faire une offre"
+
+#: bid13-auction-feed.php:383
+msgid "Time Left"
+msgstr "Temps restant "
+
+#: bid13-auction-feed.php:385
+msgid "Auction Complete, Final Price"
+msgstr "Enchère Terminée, Prix Final"

@@ -1,0 +1,463 @@
+# Copyright (C) 2020 Bid13 Storage Auctions
+# This file is distributed under the same license as the Bid13 Auction Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bid13 Auction Feed 1.16\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bid13-auction-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-15T01:01:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: bid13-auction-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Bid13 Auction Feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://wp-demo.bid13.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Uses the bid13 API to generate a feed of auctions."
+msgstr ""
+
+#. Author of the plugin
+msgid "Bid13 Storage Auctions"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.bid13.com"
+msgstr ""
+
+#: bid13-auction-feed.php:279
+msgid "Filter by Region"
+msgstr ""
+
+#: bid13-auction-feed.php:281
+#: bid13-auction-feed.php:290
+msgid "Show all"
+msgstr ""
+
+#: bid13-auction-feed.php:288
+msgid "Filter by City"
+msgstr ""
+
+#: bid13-auction-feed.php:316
+msgid "There are no units currently available for auction, please check back in the future."
+msgstr ""
+
+#: bid13-auction-feed.php:318
+msgid "If you would like to receive email updates about our future auctions please sign up for the "
+msgstr ""
+
+#: bid13-auction-feed.php:318
+msgid "storage auction newsletter"
+msgstr ""
+
+#: bid13-auction-feed.php:340
+msgid "week"
+msgstr ""
+
+#: bid13-auction-feed.php:346
+msgid "day"
+msgstr ""
+
+#: bid13-auction-feed.php:352
+msgid "hour"
+msgstr ""
+
+#: bid13-auction-feed.php:358
+msgid "minute"
+msgstr ""
+
+#: bid13-auction-feed.php:377
+msgid "Unit"
+msgstr ""
+
+#: bid13-auction-feed.php:415
+msgid "Unit Contents"
+msgstr ""
+
+#: bid13-auction-feed.php:420
+msgid "Pickup Location"
+msgstr ""
+
+#: bid13-auction-feed.php:424
+msgid "Current Bid"
+msgstr ""
+
+#: bid13-auction-feed.php:424
+msgid "place bid"
+msgstr ""
+
+#: bid13-auction-feed.php:425
+msgid "Time Left"
+msgstr ""
+
+#: bid13-auction-feed.php:427
+msgid "Auction Cancelled"
+msgstr ""
+
+#: bid13-auction-feed.php:429
+msgid "Auction Complete, Final Price"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:70
+msgid "Plugin Settings"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:70
+#: includes/class-bid13-auction-feed-settings.php:363
+msgid "Bid13 Settings"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:99
+msgid "Settings"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:122
+msgid "API Settings"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:123
+msgid "Please enter your API key here.  If you do not have an API key and wish to place a request for one, please email <a href=\"mailto:auctions@bid13.com\">auctions@bid13.com</a>."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:127
+msgid "API Key"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:128
+msgid "Please enter your api key."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:131
+#: includes/class-bid13-auction-feed-settings.php:234
+msgid "API key"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:137
+msgid "Development Mode"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:138
+msgid "If checked data will be pulled from https://staging.bid13.com instead of the live site."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:145
+msgid "Facilities To Display"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:146
+msgid "Please check all facilities you wish to display auctions for."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:154
+msgid "Customization"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:155
+msgid ""
+"Here you can modify the look and feel of how the auction feed itegrates into your website.  <br/>\n"
+"\t\t\tIf you find that there is some settings missing here, or a feature you would like, please email  <a href=\"mailto:auctions@bid13.com\">auctions@bid13.com</a>."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:160
+msgid "Link Color"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:161
+msgid "If you would like the links to appear as a different color, select it here."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:167
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:174
+msgid "Headline Color"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:181
+msgid "Organize Output by Geolocation?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:182
+msgid "Check this box if you would like to print the auctions organized by State and City."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:188
+msgid "Hide past auctions?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:189
+msgid "Check this if you would like to hide past auctions, so that they do not appear in the feed."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:195
+msgid "Open links in new tab?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:196
+msgid "When checked, all links will open in a new tab (target=_blank)."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:202
+msgid "Display the unit description?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:203
+msgid "When checked, the unit contents description will next to each auction.  This description is controllable via your bid13 account.  In the future this will be replaced by tags."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:209
+msgid "Display the unit location?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:210
+msgid "When checked, the facility address is printed below each auction."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:216
+msgid "Display video instead of photos?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:217
+msgid "If checked the photo container will be replaced with the unit video."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:223
+msgid "Most Recent Auctions First?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:224
+msgid "If checked the most recent auctions will display at the top of the page, and the older auctions below."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:230
+msgid "Media Max Width"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:231
+msgid "The image/video container is responsive, but you may want to limit how big it gets. Numbers only please (pixels)"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:238
+msgid "Hide newsletter link?"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:239
+msgid "If checked the the plugin will not print a link to the bid13 newsletter when there are no auctions."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:254
+msgid "Unit Description"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:255
+msgid "Please enter a description of the unit contents."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:258
+msgid "Please enter a description of the unit contents"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:264
+msgid "Preferred Image"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:265
+msgid "Please select which image you would like to appear in the feed.  NOTE: This has no impact if you have selected display videos instead of images in the general settings section."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:272
+msgid " Alternate Image"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:273
+msgid "If you selected 'Upload a different image' above please do so here.  We recomend discussing the use of this feature with your web development team, depending on how they implement the feed on your website, they might give you a minimum image size suggestion."
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:280
+msgid "You can use this screen to customize how "
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:294
+msgid "Auction Settings"
+msgstr ""
+
+#: includes/class-bid13-auction-feed-settings.php:418
+msgid "Save Settings"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-admin-api.php:159
+msgid "Upload an image"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-admin-api.php:159
+msgid "Use image"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-admin-api.php:159
+msgid "Upload new image"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-admin-api.php:160
+msgid "Remove image"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:76
+msgid "Add New"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:77
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:79
+msgid "Add New %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:78
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:76
+msgid "Edit %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:79
+msgid "New %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:80
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:75
+msgid "All %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:81
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:77
+msgid "View %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:82
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:83
+msgid "Search %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:83
+msgid "No %s Found"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:84
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:127
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:128
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:129
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:130
+msgid "%1$s updated."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:131
+msgid "%1$s restored to revision from %2$s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:132
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:133
+msgid "%1$s saved."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:134
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:135
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:135
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:136
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:151
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:152
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:153
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:154
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-bid13-auction-feed-post-type.php:155
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:78
+msgid "Update %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:80
+msgid "New %s Name"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:81
+msgid "Parent %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:82
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:84
+msgid "Popular %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:85
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:86
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:87
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: includes/lib/class-bid13-auction-feed-taxonomy.php:88
+msgid "No %s found"
+msgstr ""

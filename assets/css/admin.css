@@ -1,0 +1,19 @@
+#bid13_auction_feed_settings label[for^='preferred_image']{
+	display: block;
+	margin-bottom: 15px;
+}
+#bid13_auction_feed_settings label[for^='preferred_image'] img,
+#bid13_auction_feed_settings label[for^='preferred_image'] input{
+	vertical-align: middle;
+	display: inline-block;
+}
+#bid13_auction_feed_settings label[for^='preferred_image'] img{
+	border: solid 2px transparent;
+}
+#bid13_auction_feed_settings label[for^='preferred_image'] input:checked + img{
+	border: solid 2px blue;
+}
+
+#bid13_auction_feed_settings form[class^='settings-tab-auction'] table tbody tr:last-child{
+	display: none;
+}
